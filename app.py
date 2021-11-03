@@ -5,10 +5,11 @@ from aws_cdk import core
 from workshop.stack.production_stack import ProductionStack
 from workshop.stack.cicdpipeline_stack import CICDPipelineStack
 from workshop.stack.webapplication_stack import WebApplicationStack
+import os
 
-UserName = ""
-EmailAddress = ""
-Region = ""
+UserName = os.getenv("UserName")
+EmailAddress = os.getenv("EmailAddress")
+Region = os.getenv("Region")
 
 app = core.App()
 Production = ProductionStack(app, 
