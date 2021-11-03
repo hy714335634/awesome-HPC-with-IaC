@@ -2,8 +2,8 @@ version: 0.2
 
 environment_variables:
   plaintext:
-    username: "zq"
-    repo: "238090515572.dkr.ecr.ap-southeast-1.amazonaws.com/web_"
+    username: "username"
+    repo: "accountid.dkr.ecr.ap-southeast-1.amazonaws.com/web_"
     web_application_version: "latest"
     
 phases:

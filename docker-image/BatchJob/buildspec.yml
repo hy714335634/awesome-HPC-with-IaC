@@ -2,7 +2,7 @@ version: 0.2
 
 environment_variables:
   plaintext:
-    username: "xx"
+    username: "username"
     repo: "accountid.dkr.ecr.ap-northeast-1.amazonaws.com/batch_"
     string_split_version: "latest"
     string_merge_version: "latest"
