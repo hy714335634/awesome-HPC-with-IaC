@@ -19,7 +19,6 @@ Production = ProductionStack(app,
     env={'region': Region}
 )
 
-
 WebApplication = WebApplicationStack(app, 
     "WebApplication-" + UserName.lower(),
     UserName = UserName.lower(),
